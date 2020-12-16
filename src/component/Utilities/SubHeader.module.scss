@@ -1,0 +1,20 @@
+@import "../../styles/colors";
+.SubHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: $mainColor;
+    .Title {
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+    .Icon {
+        font-size: 1.2rem;
+        margin-right: 0.25rem;
+        svg {
+            margin-top: -4px;
+        }
+    }
+}

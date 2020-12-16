@@ -1,0 +1,30 @@
+@import "../../styles/colors";
+.Footer {
+    position: absolute;
+    min-width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.75rem;
+    background-color: #ffffff;
+    & > div {
+        display: flex;
+        flex-flow: column nowrap;
+        font-size: 1.8rem;
+        color: rgba(0, 0, 0, 0.6);
+        text-align: center;
+        cursor: pointer;
+        svg {
+            align-self: center;
+        }
+        .Title {
+            text-transform: capitalize;
+            font-size: 0.6rem;
+            font-weight: bold;
+            margin-top: -1px;
+        }
+        &.Active {
+            color: $activePage;
+        }
+    }
+}

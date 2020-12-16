@@ -1,0 +1,16 @@
+@import "../../styles/colors";
+.Bill {
+    border-bottom: 1px solid rgba($mainColor, 0.45);
+    padding: 0.25rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    & > div {
+        text-transform: capitalize;
+        flex-basis: 30%;
+    }
+    &:last-child {
+        margin: 0;
+    }
+}

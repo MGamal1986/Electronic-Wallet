@@ -1,0 +1,17 @@
+@import "../../styles/colors";
+.Navigation {
+    background: $mainColor;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    .Page {
+        font-weight: bold;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    .Bars,
+    .Bell {
+        font-size: 1.35rem;
+        cursor: pointer;
+        color: #fff;
+    }
+}

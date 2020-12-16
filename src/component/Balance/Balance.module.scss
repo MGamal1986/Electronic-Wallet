@@ -1,0 +1,29 @@
+@import "../../styles/colors";
+
+.Balance {
+    background: #fff;
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    .Wallet {
+        .Title {
+            text-transform: capitalize;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: rgba(0, 0, 0, 0.7);
+        }
+        .CurrentBalance {
+            color: $mainColor;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+    }
+    .LoadWallet {
+        background: $mainColor;
+        color: #fff;
+        border-radius: 5px;
+        font-weight: bold;
+        text-transform: capitalize;
+        align-self: center;
+    }
+}

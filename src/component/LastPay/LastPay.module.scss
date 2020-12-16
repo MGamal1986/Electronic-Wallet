@@ -1,0 +1,25 @@
+@import "../../styles/colors";
+.LastPay {
+    background: #fff;
+    padding: 1rem;
+    .Pay {
+        display: flex;
+        justify-content: space-between;
+        .Check {
+            margin-right: 0.5rem;
+        }
+        .Title {
+            text-transform: capitalize;
+        }
+        .Amount {
+            display: flex;
+            flex-flow: column nowrap;
+            text-transform: uppercase;
+            text-align: center;
+            & span:first-child {
+                color: $activePage;
+                font-weight: 700;
+            }
+        }
+    }
+}

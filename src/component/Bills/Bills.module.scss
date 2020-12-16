@@ -1,0 +1,24 @@
+@import "../../styles/colors";
+.Bills {
+    text-align: center;
+    background: #fff;
+    padding: 1rem;
+    color: $mainColor;
+    h4 {
+        color: #000;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .HeaderTitle {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        & > span {
+            flex-basis: 30%;
+            color: $mainColor;
+            text-transform: capitalize;
+            font-weight: 500;
+        }
+    }
+}
